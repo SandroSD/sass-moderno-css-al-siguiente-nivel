@@ -1,0 +1,9 @@
+@use 'variables' with (
+    $primary: red,
+    $secondary: green
+);
+
+body {
+    color: variables.$primary;
+    background-color: variables.$secondary;
+}
